@@ -3,87 +3,104 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
+
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=">
     <title>Jane Wetherholt Professional Portfolio</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="portfolio.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Poppins:wght@200&family=Raleway:wght@300&family=Roboto:wght@300&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <nav class="navigation">
+        <ul>
+            <li><a href="#">home.</a></li>
+            <li><a href="#">about me.</a></li>
+            <li class="dropdown"><a href="#" class="dropbtn">projects.</a></li>
+            <div class="dropdown-content">
+                <a href="#">virtual pet project.</a>
+                <a href="#">guessing game project.</a>
+                <a href="#">fortune teller project.</a>
+            </div>
+            <li><a href="#">contact me.</a></li>
+        </ul>
+    </nav>
 </head>
 
 <body>
-    <div class="flex-container">
-        <div>
-            <header>
-                <h1>hi, there.</h1>
-            </header>
-        </div>
-        <div>
-            <section>
-                <h2>About Me</h2>
-                <!-- About Me
-        brief biographical info
-        photo
-        list of skills
-        other pertinent information -->
-            </section>
-        </div>
-        <div>
-            <section>
-                <!-- projects (at least three) -->
-                <article>
-                    <h2>Project 1 (Name goes here)</h2>
-                    <!-- project 1
-            GitHub repo or page
-            screenshot
-            skills/tech used -->
-                </article>
-                <article>
-                    <h2>Project 2 (Name goes here)</h2>
-                    <!-- project 2
-            GitHub repo or page
-            screenshot
-            skills/tech used -->
-                </article>
-                <article>
-                    <h2>Project 3 (Name goes here)</h2>
-                    <!-- project 3
-            GitHub repo or page
-            screenshot
-            skills/tech used -->
-                </article>
+    <!--  container code goes here  -->
+    <div class="container">
+        <!--   nav div starts here   -->
+        <section class="grid-item grid-item-1">hi, there.</section>
+        <section class="grid-item grid-item-2">
+            <img src="/" alt="thirst trap">
 
-            </section>
-        </div>
-        <div>
-            <section>
-                <h2>Contact Me</h2>
-                <!-- Contact Me 
-        links to professional networking sites 
-        LinkedIn
-        GitHub -->
-            </section>
-        </div>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <div>
+        </section>
+        <section class="grid-item grid-item-3">
+            <h1>about me.</h1>
+            <p class="biography">bio: i'm a web developer looking for a job.
+                For the past five years, I've worked in the hotel industry and thus have a
+                lot of experience with face-to-face customer service. I had been considering a
+                switch to a different career, perhaps project management, but the 2020
+                pandemic made the decision for me and I was furloughed starting in March.
+                I started a web development bootcamp in September 2020 with an emphasis on Java.
+                I'm looking for a career that allows a lot of upward mobility and more of a
+                work/life balance as well.
+            </p>
+        </section>
+        <section class="grid-item grid-item-4">
+            <h1>skills.</h1>
+            <p>languages: Java | HTML | CSS | JavaScript</p>
+            <p>tools: GitHub | GitBash | VS Code | IntelliJ</p>
+            <p>methodologies: Agile</p>
+            <p>certifications: MS Azure Fundamentals AZ-900 (aug2020) <br>Certified Associates in Project Management
+                (may2020)</p>
+        </section>
+        <section class="grid-item grid-item-5">projects.
+        </section>
+        <section class="grid-item grid-item-6">
+            <img src="/" alt="thirst trap">
+            <h2>virtual pet project.</h2>
+            <p>This is a Virtual Pet project completed during my bootcamp. All functionality resides in the
+                console.
+            </p>
+            <p><a href="https://github.com/2020-Fall-Cohort/virtual-pets-pj-2">see the project in GitHub</a></p>
+        </section>
+        <section class="grid-item grid-item-7">
+            <img src="/" alt="thirst trap">
+            <h2>guessing game project.</h2>
+            <p>This is a Guessing Game project, the first completed during my bootcamp. All functionality
+                resides in
+                the console.</p>
+            <p><a href="https://github.com/2020-Fall-Cohort/virtual-pets-pj-2">see the project in GitHub</a></p>
+        </section>
+        <section class="grid-item grid-item-8">
+            <img src="/" alt="thirst trap">
+            <h2>fortune teller project.</h2>
+            <p>This is a Fortune Teller project, the second completed during my bootcamp. All functionality
+                resides
+                in the console.</p>
+            <p><a href="https://github.com/2020-Fall-Cohort/virtual-pets-pj-2">see the project in GitHub</a></p>
+        </section>
+        <section class="grid-item grid-item-9">contact me.</section>
+        <section class="grid-item grid-item-10">
             <footer>
                 <!-- icons for networking sites
             recap of website information -->
-                This is font in the footer.
-
+                this is font in the footer.
+                <div class="footer-nav">
+                    <nav>
+                        <ul>
+                            <li><a href="https://github.com/JaneWetherholt">GitHub</a></li>
+                            <li><a href="https://www.linkedin.com/in/jane-wetherholt-09058b33/">LinkedIn</a></li>
+                            <li><a href="mailto: janewetherholt@gmail.com">Gmail</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </footer>
-        </div>
+        </section>
     </div>
-
-    <script src="" async defer></script>
 </body>
 
 </html>

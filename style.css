@@ -1,0 +1,60 @@
+.container {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+  }
+  .navigation ul {
+    list-style-type: none;
+    background-color: white;
+  }
+  .navigation ul a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+  }
+  .navigation ul li a:hover, .dropdown:hover .dropbtn {
+    background-color: gray;
+  }
+  .dropdown-content a {
+    color: black;
+  }
+  #main header h1 {
+    color: white;
+    background-color: gray;
+  }
+  .grid-item {
+    background-color: gray;
+  }
+  .grid-item-1 {
+    font-size: 5em;
+  }
+  /* .grid-item-2 {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 2;
+  }
+  .grid-item-3 {
+    grid-column: 2 / span 2;
+    grid-row: 2 / span 1;
+  }
+  .grid-item-4 {
+    grid-column: 2 / span 2;
+    grid-row: 3 / span 1;
+  }
+  .grid-item-5 {
+    grid-column: 1 / span 3;
+  }*/
+  .grid-item-6 {
+    text-align: center;
+  }
+  .grid-item-7 {
+    text-align: center;
+  }
+  .grid-item-8 {
+    text-align: center;
+  }
+  /*
+  .grid-item-9 {
+    grid-column: 1 / span 3;
+  }
+  .grid-item-10 {
+    grid-column: 1 / span 3;
+  }   */
