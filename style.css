@@ -38,11 +38,11 @@
   .grid-item-4 {
     grid-column: 2 / span 2;
     grid-row: 3 / span 1;
-  }
-  .grid-item-5 {
-    grid-column: 1 / span 3;
   }*/
-  .grid-item-6 {
+  .grid-item-5 {
+    font-size: 150%;
+  }
+  /* .grid-item-6 {
     text-align: center;
   }
   .grid-item-7 {
@@ -50,11 +50,11 @@
   }
   .grid-item-8 {
     text-align: center;
-  }
-  /*
+  } */
+  
   .grid-item-9 {
-    grid-column: 1 / span 3;
+    font-size: 150%;
   }
-  .grid-item-10 {
+  /*.grid-item-10 {
     grid-column: 1 / span 3;
   }   */
