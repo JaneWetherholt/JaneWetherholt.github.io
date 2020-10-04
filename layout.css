@@ -2,12 +2,11 @@
     display: grid;
     gap: 15px 20px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px repeat(2, 300px) 100px 300px repeat(2, 100px);
+    grid-template-rows: 10% 17% 17% 10% 26% 10% 10%;
     margin: 2rem auto;
     max-width: 1000px;
     width: 90%;
 }
-
 /* navigation layout */
 
 .navigation ul {
@@ -129,6 +128,9 @@ img {
     text-align: center;
 }
 
+.footer-nav ul {
+    padding-left: 0;
+}
 .footer-nav ul li {
     display: inline-block;
     padding: 14px 16px;
