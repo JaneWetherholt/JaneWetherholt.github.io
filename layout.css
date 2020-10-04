@@ -2,97 +2,147 @@
     display: grid;
     gap: 15px 20px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 100px repeat(2, 250px) 100px 200px repeat(2, 100px);
+    grid-template-rows: 100px repeat(2, 300px) 100px 300px repeat(2, 100px);
     margin: 2rem auto;
     max-width: 1000px;
     width: 90%;
-  }
-  .navigation ul {
+}
+
+/* navigation & dropdown layout */
+
+.navigation ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    
-  }
-  .navigation ul li {
+}
+
+.navigation ul li {
     float: left;
-  }
-  li a, .dropbtn {
+}
+
+li a, .dropbtn {
     display: inline-block;
     text-align: center;
     padding: 14px 16px;
-  }
-  
-  li.dropdown {
+}
+
+li.dropdown {
     display: inline-block;
-  }
-  .dropdown-content {
+}
+
+.dropdown-content {
     display: none;
     position: absolute;
     min-width: 160px;
     z-index: 1;
-  }
-  .dropdown-content a {
+}
+
+.dropdown-content a {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
-  }
-  
-  .dropdown:hover .dropdown-content {
+}
+
+.dropdown:hover .dropdown-content {
     display: block;
-  }
-  /* navigation & dropdown layout end */
-  .grid-item-1 {
+}
+
+/* navigation & dropdown layout end */
+
+/* website grid layout */
+
+.grid-item-1 {
     text-align: center;
     grid-column: 1 / span 3;
     grid-row: 1 / span 1;
-  }
-  .grid-item-2 {
+}
+
+.grid-item-2 {
+    display: block;
+    margin-top: 30%;
+    margin-bottom: 30%;
+    height: 50%;
     grid-column: 1 / span 1;
     grid-row: 2 / span 2;
-  }
-  .grid-item-3 {
+    align-content: center;
+}
+
+.grid-item-3 {
     grid-column: 2 / span 2;
     grid-row: 2 / span 1;
     text-align: center;
-  }
-  .grid-item-3 p {
-      margin: 20px;
-  }
-  .grid-item-4 {
+}
+
+.grid-item-3 p {
+    margin: 20px;
+}
+
+.grid-item-4 {
     grid-column: 2 / span 2;
     grid-row: 3 / span 1;
     text-align: center;
-  }
-  .grid-item-5 {
+}
+
+.grid-item-5 {
     grid-column: 1 / span 3;
     text-align: center;
-  }
-  .grid-item-6 {
+}
+
+.grid-item-6 {
     grid-column: 1 / span 1;
     text-align: center;
-  }
-  .grid-item-6 p {
+}
+
+.grid-item-6 p {
     margin: 20px;
-  }
-  .grid-item-7 {
+}
+
+.grid-item-6 p a {
+    padding: 14px 16px;
+}
+
+.grid-item-7 {
     grid-column: 2 / span 1;
     text-align: center;
-  }
-  .grid-item-7 p {
+}
+
+.grid-item-7 p {
     margin: 20px;
-  }
-  .grid-item-8 {
+}
+
+.grid-item-7 p a {
+    padding: 14px 16px;
+}
+
+.grid-item-8 {
     grid-column: 3 / span 1;
     text-align: center;
-  }
-  .grid-item-8 p {
+}
+
+.grid-item-8 p {
     margin: 20px;
-  }
-  .grid-item-9 {
+}
+
+.grid-item-8 p a {
+    padding: 14px 16px;
+}
+
+.grid-item-9 {
     grid-column: 1 / span 3;
     text-align: center;
-  }
-  .grid-item-10 {
+}
+
+/* footer layout */
+
+.grid-item-10 {
     grid-column: 1 / span 3;
-  }
+    text-align: center;
+}
+
+.footer-nav ul li {
+    display: inline-block;
+    padding: 14px 16px;
+}
+
+/* footer layout end */

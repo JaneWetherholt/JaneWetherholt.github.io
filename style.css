@@ -1,48 +1,59 @@
 .container {
-    color: white;
+    color: black;
     font-family: 'Poppins', sans-serif;
-  }
-  /* navigation & dropdown styling */
-  .navigation ul {
+}
+
+/* navigation & dropdown styling */
+
+.navigation ul {
     list-style-type: none;
     background-color: white;
     font-family: 'Poppins', sans-serif;
-  }
-  li a, .dropbtn {
+}
+
+li a, .dropbtn {
     color: black;
     text-decoration: none;
-  }
-  li a:hover, .dropdown:hover .dropbtn {
-    background-color: #333;
-  }
+}
 
-  .dropdown-content a:hover {
+.navigation ul li a:hover, .dropdown:hover .dropbtn {
+    background-color: gray;
+}
+
+.dropdown-content a:hover {
     background-color: #f1f1f1;
-  }
-  .dropdown-content a {
+}
+
+.dropdown-content a {
     color: black;
     text-decoration: none;
-  }
-  .dropdown-content {
-    background-color: #f9f9f9;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  } 
+}
 
-  /* navigation & dropdown styling end */
-  #main header h1 {
-    color: white;
-    background-color: gray;
-  }
-  .grid-item {
-    background-color: gray;
-  }
-  .grid-item-1 {
+.dropdown-content {
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* navigation & dropdown styling end */
+
+#main header h1 {
+    color: black;
+    background-color: white;
+}
+
+.grid-item {
+    background-color: white;
+}
+
+.grid-item-1 {
     font-size: 5em;
-  }
-  /* .grid-item-2 {
-    grid-column: 1 / span 1;
-    grid-row: 2 / span 2;
-  }
+}
+
+.grid-item-2 {
+    background-color:black;
+}
+
+/*
   .grid-item-3 {
     grid-column: 2 / span 2;
     grid-row: 2 / span 1;
@@ -51,22 +62,47 @@
     grid-column: 2 / span 2;
     grid-row: 3 / span 1;
   }*/
-  .grid-item-5 {
+
+.grid-item-5 {
     font-size: 150%;
-  }
-  /* .grid-item-6 {
-    text-align: center;
-  }
-  .grid-item-7 {
-    text-align: center;
-  }
-  .grid-item-8 {
-    text-align: center;
-  } */
-  
-  .grid-item-9 {
+}
+
+.grid-item-6 p a {
+    text-decoration: none;
+    color: black;
+}
+
+.grid-item-6 p a:hover {
+    background-color: gray;
+}
+
+.grid-item-7 p a {
+    text-decoration: none;
+    color: black;
+}
+
+.grid-item-7 p a:hover {
+    background-color: gray;
+}
+
+.grid-item-8 p a {
+    text-decoration: none;
+    color: black;
+}
+
+.grid-item-8 p a:hover {
+    background-color: gray;
+}
+
+.grid-item-9 {
     font-size: 150%;
-  }
-  /*.grid-item-10 {
-    grid-column: 1 / span 3;
-  }   */
+}
+
+.grid-item-10 {
+    background-color: white;
+}
+
+.footer-nav img {
+    color: gray;
+}
+

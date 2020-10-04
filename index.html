@@ -13,18 +13,18 @@
     <link rel="stylesheet" href="layout.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <nav class="navigation">
+    <nav id="home" class="navigation">
         <ul>
-            <li><a href="#">home.</a></li>
-            <li><a href="#">about me.</a></li>
-            <li class="dropdown"><a href="#" class="dropbtn">projects.</a>
+            <li><a href="#home">home.</a></li>
+            <li><a href="#about-me">about me.</a></li>
+            <li class="dropdown"><a href="#projects" class="dropbtn">projects.</a>
             <div class="dropdown-content">
                 <a href="#">virtual pet project.</a>
                 <a href="#">guessing game project.</a>
                 <a href="#">fortune teller project.</a>
             </div>
             </li>
-            <li><a href="#">contact me.</a></li>
+            <li><a href="#contact-me">contact me.</a></li>
         </ul>
     </nav>
 </head>
@@ -33,14 +33,14 @@
     <!--  container code goes here  -->
     <div class="container">
         <!--   nav div starts here   -->
-        <section class="grid-item grid-item-1">hi, there.</section>
+        <section id="about-me" class="grid-item grid-item-1">hi, there.</section>
         <section class="grid-item grid-item-2">
-            <img src="/" alt="thirst trap">
+            <img src="self portrait.jpg" width="320px" height="420px" alt="thirst trap">
 
         </section>
         <section class="grid-item grid-item-3">
             <h1>about me.</h1>
-            <p class="biography">bio: i'm a web developer looking for a job.
+            <p class="biography"><strong>bio:</strong> i'm a web developer looking for a job.
                 For the past five years, I've worked in the hotel industry and thus have a
                 lot of experience with face-to-face customer service. I had been considering a
                 switch to a different career, perhaps project management, but the 2020
@@ -52,14 +52,14 @@
         </section>
         <section class="grid-item grid-item-4">
             <h1>skills.</h1>
-            <p>languages: Java | HTML | CSS | JavaScript</p>
-            <p>tools: GitHub | GitBash | VS Code | IntelliJ</p>
-            <p>methodologies: Agile</p>
-            <p>certifications: MS Azure Fundamentals AZ-900 (aug2020) <br>Certified Associates in Project Management
-                (may2020)</p>
+            <p><strong>languages:</strong> Java | HTML | CSS | JavaScript</p>
+            <p><strong>tools:</strong> GitHub | GitBash | VS Code | IntelliJ</p>
+            <p><strong>methodologies:</strong> Agile</p>
+            <p><strong>certifications:</strong> MS Azure Fundamentals AZ-900 [aug2020] <br>Certified Associates in Project Management
+                [may2020]</p>
         </section>
         <section class="grid-item grid-item-5">
-            <h1>projects.</h1>
+            <h1 id="projects">projects.</h1>
         </section>
         <section class="grid-item grid-item-6">
             <img src="/" alt="thirst trap">
@@ -86,19 +86,18 @@
             <p><a href="https://github.com/2020-Fall-Cohort/virtual-pets-pj-2">see the project in GitHub</a></p>
         </section>
         <section class="grid-item grid-item-9">
-            <h1>contact me.</h1>
+            <h1 id="contact-me">contact me.</h1>
         </section>
         <section class="grid-item grid-item-10">
             <footer>
                 <!-- icons for networking sites
             recap of website information -->
-                this is font in the footer.
-                <div class="footer-nav">
-                    <nav>
+                <div>
+                    <nav class="footer-nav">
                         <ul>
-                            <li><a href="https://github.com/JaneWetherholt">GitHub</a></li>
-                            <li><a href="https://www.linkedin.com/in/jane-wetherholt-09058b33/">LinkedIn</a></li>
-                            <li><a href="mailto: janewetherholt@gmail.com">Gmail</a></li>
+                            <li><a href="https://github.com/JaneWetherholt"><img src="GitHub-Mark-32px.png"></a></li>
+                            <li><a href="https://www.linkedin.com/in/jane-wetherholt-09058b33/"><img src="LinkedIn-Icon-Black-Logo.wine.png" width="45px" height="35px"></a></li>
+                            <li><a href="mailto: janewetherholt@gmail.com"><img src="baseline_email_black_18dp.png" width="32px" height="32px" Gmail</a></li>
                         </ul>
                     </nav>
                 </div>
