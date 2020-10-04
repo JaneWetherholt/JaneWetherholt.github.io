@@ -1,43 +1,54 @@
+:root {
+    --main-color: #22223b;
+    --primary-color: #4a4e69;
+    --sub-color: #9a8c98;
+    --accent-color-1: #c9ada7;
+    --accent-color-2: #f2e9e4;
+}
+
 .container {
     color: black;
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background-color: var(--accent-color-2);
+}
 /* navigation styling */
 
 .navigation ul {
     list-style-type: none;
-    background-color: white;
+    background-color: var(--main-color);
+    
     font-family: 'Poppins', sans-serif;
 }
 
 li a {
-    color: black;
+    color: var(--accent-color-2);
     text-decoration: none;
 }
 
 .navigation ul li a:hover {
-    background-color: gray;
+    background-color: var(--primary-color);
 }
 
 
 /* navigation styling end */
 
-#main header h1 {
-    color: black;
-    background-color: white;
-}
-
-.grid-item {
-    background-color: white;
+h1 {
+    background-color: var(--sub-color);
+    color: var(--accent-color-2);
+    border-radius: 50px;
+    margin: 0;
 }
 
 .grid-item-1 {
     font-size: 5em;
+    background-color: var(--primary-color);
+    color: var(--accent-color-2);
 }
-
-.grid-item-2 {
-    background-color:white;
+.portrait {
+    border-radius: 10%;
 }
 
 /*
@@ -50,8 +61,14 @@ li a {
     grid-row: 3 / span 1;
   }*/
 
-.grid-item-5 {
-    font-size: 150%;
+.card {
+    background-color: var(--accent-color-1);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    transition-duration: 0.3s;
 }
 
 .grid-item-6 p a {
@@ -60,7 +77,9 @@ li a {
 }
 
 .grid-item-6 p a:hover {
-    background-color: gray;
+    background-color: var(--primary-color);
+    color: var(--accent-color-2);
+    transition-duration: .3s;
 }
 
 .grid-item-7 p a {
@@ -69,7 +88,9 @@ li a {
 }
 
 .grid-item-7 p a:hover {
-    background-color: gray;
+    background-color: var(--primary-color);
+    color: var(--accent-color-2);
+    transition-duration: .3s;
 }
 
 .grid-item-8 p a {
@@ -78,15 +99,17 @@ li a {
 }
 
 .grid-item-8 p a:hover {
-    background-color: gray;
-}
-
-.grid-item-9 {
-    font-size: 150%;
+    background-color: var(--primary-color);
+    color: var(--accent-color-2);
+    transition-duration: .3s;
 }
 
 .grid-item-10 {
-    background-color: white;
+    background-color: var(--primary-color);
+}
+footer {
+    background-color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
 }
 
 .footer-nav img {
